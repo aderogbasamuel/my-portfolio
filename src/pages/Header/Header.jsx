@@ -48,8 +48,8 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-gray-900/95 backdrop-blur-md md:bg-transparent md:backdrop-blur-none">
-      <div className="fixed top-4 left-1/2 transform -translate-x-1/2 w-auto">
-        <div className="p-[2px] rounded-full bg-gradient-to-r from-emerald-400 via-cyan-500 to-indigo-500 animate-gradient-x">
+      <div className="fixed top-6 left-1/2 transform -translate-x-1/2 w-auto">
+        <div className="p-[1px] rounded-full bg-gradient-to-r from-emerald-400 via-cyan-500 to-indigo-500 animate-gradient-x">
           <nav className="bg-gray-900/90 backdrop-blur-md rounded-full px-2 py-2">
             {/* Mobile Menu Button */}
             {/* <div className="flex justify-between items-center md:hidden px-2">
@@ -73,7 +73,7 @@ export default function Header() {
                       setActiveLink(id);
                       setIsMenuOpen(false);
                     }}
-                    className={`px-3 py-3 md:py-3 rounded-full text-sm font-medium
+                    className={`px-2 py-2 md:py-2 rounded-full text-sm font-medium
                       transition-all duration-300 flex items-center gap-2
                       hover:bg-white/10 
                       ${
@@ -87,7 +87,7 @@ export default function Header() {
                       className={`text-base ${
                         activeLink === id ? "scale-110" : ""
                         }`}
-                      size={18}
+                      size={24}
                     />
                     {/* <span className="inline">{text}</span> */}
                   </Link>
