@@ -71,14 +71,14 @@ export default function About() {
         </div> */}
         <div
           id="about"
-          className="my-5 lg:my-0 relative  mx-auto max-w-4xl space-y-8 px-6 md:px-32 border-r border-l border-cyan-500 py-16 md:py-48" 
+          className="lg:my-0 relative  mx-auto max-w-4xl space-y-8 px-6 md:px-32 border-r border-l border-none sm:border-cyan-500 py-24 md:py-48" 
         >
           <h2 className="relative z-10 max-w-xl text-4xl font-medium lg:text-5xl text-white">
             Who Am I?
           </h2>
           <div className="grid gap-6 sm:grid-cols-1 md:gap-12 lg:gap-24">
             
-            <div className="order-2 lg:order-1">
+            <div className="order-1">
               {/* <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
                 Who I am?
               </p> */}
@@ -96,8 +96,9 @@ export default function About() {
                 bring creativity, precision, and enthusiasm to every line of
                 code I write.
               </p>
-            </div><div className="flex justify-center order-1">
-              <div className="bg-linear-to-b aspect-76/59 relative rounded-2xl px-32 from-zinc-300 to-transparent">
+            </div>
+            <div className="flex justify-center order-1">
+              <div className="bg-linear-to-b aspect-76/59 relative rounded-2xl px-10 pt-5 md:px-32 from-zinc-300 to-transparent">
                 <img
                   src={HeroImg}
                   width={1207}

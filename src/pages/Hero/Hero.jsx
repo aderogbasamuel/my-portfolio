@@ -171,7 +171,7 @@ const profile = {
           {/* Main content container */}
           <div
             // className="container mx-auto flex flex-col lg:flex-row items-center justify-between relative z-10 py-8 md:py-10 lg:py-12 md:pt-28 xl:pt-28"
-            className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8 z-10 py-8 md:py-10 lg:py-12 pt-28 md:pt-28 xl:pt-28"
+            className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8 z-10 py-8 md:py-10 lg:py-12 pt-40 md:pt-28 xl:pt-28"
             style={{
               paddingTop:
                 window.innerWidth >= 1360 &&
@@ -197,22 +197,22 @@ const profile = {
               </div>
 
               {/* Name section */}
-              <div className="relative mb-6 sm:mb-8">
-                <h1 className="text-6xl sm:text-6xl lg:text-6xl font-medium leading-tight">
+              <div className="relative mb-0 sm:mb-8">
+                <h1 className="text-6xl sm:text-6xl lg:text-6xl font-normal">
                   <span className="relative flex items-center gap-3">
                     <SparklesText text="Hello" />
                     I&apos;m
                   </span>
                   <span className="typing-effect gradient-text">
                     {" "}
-                    Aderogba Samuel
+                    Samuel
                   </span>
                 </h1>
                 <div className="absolute -z-10 top-1/2 -translate-y-1/2 left-1/4 w-24 sm:w-32 h-24 sm:h-32 bg-blue-500/20 rounded-full blur-2xl animate-pulse"></div>
               </div>
 
               {/* Role badge */}
-              <div className="inline-flex items-center gap-2 sm:gap-3 px-2 sm:px-6 py-2 sm:py-3 rounded-lg sm:rounded-xl bg-gradient-to-r from-blue-500/10 to-teal-500/10 border border-blue-500/20 mb-6 sm:mb-8 backdrop-blur-sm animate__animated animate__fadeInUp animate__delay-1s">
+              {/* <div className="inline-flex items-center gap-2 sm:gap-3 px-2 sm:px-6 py-2 sm:py-3 rounded-lg sm:rounded-xl bg-gradient-to-r from-blue-500/10 to-teal-500/10 border border-blue-500/20 mb-6 sm:mb-8 backdrop-blur-sm animate__animated animate__fadeInUp animate__delay-1s">
                 <Rocket className=" text-blue-400 animate-bounce text-sm sm:text-base"/>
                 <span>
                   <FlipWords
@@ -220,7 +220,7 @@ const profile = {
                     words={words}
                   />
                 </span>
-              </div>
+              </div> */}
 
               {/* Description */}
               <div className="relative mb-8 sm:mb-12 max-w-xl">
