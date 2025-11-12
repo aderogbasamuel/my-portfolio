@@ -205,7 +205,7 @@ const profile = {
                   </span>
                   <span className="typing-effect gradient-text">
                     {" "}
-                    Samuel
+                    SamuelA.
                   </span>
                 </h1>
                 <div className="absolute -z-10 top-1/2 -translate-y-1/2 left-1/4 w-24 sm:w-32 h-24 sm:h-32 bg-blue-500/20 rounded-full blur-2xl animate-pulse"></div>

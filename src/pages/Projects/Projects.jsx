@@ -5,51 +5,55 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "African store landing page",
+    title: "African Store Landing Page",
     description:
-      "Aimed at providing African Foods and products where they are not available.",
-    src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
+      "A platform designed to make African foods and products accessible where they're hard to find.",
+    link: "/projects/faoskitchen.png",
     color: "#5196fd",
     githubLink: "https://github.com/olovajs/olova",
     liveLink: "https://olova.js.org/",
   },
   {
-    title: "A sleek portfolio built with React and Tailwind CSS",
+    title: "Vibekitz",
     description:
-      "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
-    src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
+      "Empowering creators to easily design profile covers, quotes, carousels, and personal pages.",
+    link: "/projects/vibekitz.png",
     color: "#8f89ff",
     githubLink: "https://github.com/seraprogrammer/portfolio",
     liveLink: "https://codervai.vercel.app",
   },
   {
-    title: "🚀Budget Tracker App",
+    title: "WeatherKnow",
     description:
-      "🚀A Web App Built to help you track Your Budgets and Your Expenses",
-    src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
+      "A modern weather app offering real-time updates and forecasts with a conversational chat interface.",
+    link: "https://weather-app-ten-xi-20.vercel.app/design/desktop-design-imperial.jpg",
     color: "#fff",
     githubLink: "https://github.com/seraprogrammer/codewhisperer",
     liveLink: "https://codewhisperer.vercel.app/",
   },
   {
-    title: "E-commerce Site",
+    title: "Blitztix",
     description:
-      "A Web App Built to order african products where they are not available.",
-    src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+      "An event ticketing platform for browsing, booking, and managing tickets with ease.",
+    link: "/projects/blitztix.png",
     color: "#ed649e",
     githubLink: "https://github.com/seraprogrammer/CodeKori",
     liveLink: "https://codekori.js.org",
   },
   {
-    title: "E-commerce Site",
+    title: "Motoka",
     description:
-      "A Web App Built to order african products where they are not available.",
-    src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+      "A Nigerian startup simplifying vehicle maintenance and document management online.",
+    link: "/projects/motoka.png",
+    color: "#ed649e",
+    githubLink: "https://github.com/seraprogrammer/CodeKori",
+    liveLink: "https://codekori.js.org",
+  },
+  {
+    title: "Teched",
+    description:
+      "An academy empowering youth with digital skills to thrive in the tech industry.",
+    link: "/projects/teched.png",
     color: "#ed649e",
     githubLink: "https://github.com/seraprogrammer/CodeKori",
     liveLink: "https://codekori.js.org",
