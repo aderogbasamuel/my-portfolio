@@ -198,7 +198,7 @@ const profile = {
 
               {/* Name section */}
               <div className="relative mb-6 sm:mb-8">
-                <h1 className="text-3xl sm:text-4xl lg:text-6xl font-medium leading-tight">
+                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-medium leading-tight">
                   <span className="relative flex items-center gap-3">
                     <SparklesText text="Hello" />
                     I&apos;m
