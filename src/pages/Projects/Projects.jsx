@@ -10,8 +10,8 @@ const projects = [
       "A platform designed to make African foods and products accessible where they're hard to find.",
     link: "/projects/faoskitchen.png",
     color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
+    // githubLink: "https://github.com/olovajs/olova",
+    liveLink: "https://faoskitchentest.vercel.app",
   },
   {
     title: "Vibekitz",
@@ -19,8 +19,8 @@ const projects = [
       "Empowering creators to easily design profile covers, quotes, carousels, and personal pages.",
     link: "/projects/vibekitz.png",
     color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
+    // githubLink: "https://github.com/seraprogrammer/portfolio",
+    liveLink: "https://vibekitz.vercel.app",
   },
   {
     title: "WeatherKnow",
@@ -28,8 +28,8 @@ const projects = [
       "A modern weather app offering real-time updates and forecasts with a conversational chat interface.",
     link: "https://weather-app-ten-xi-20.vercel.app/design/desktop-design-imperial.jpg",
     color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
+    // githubLink: "https://github.com/seraprogrammer/codewhisperer",
+    liveLink: "https://weatherknow.vercel.app/",
   },
   {
     title: "Blitztix",
@@ -38,7 +38,7 @@ const projects = [
     link: "/projects/blitztix.png",
     color: "#ed649e",
     githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    liveLink: "https://bliitztix.pxxl.click",
   },
   {
     title: "Motoka",
@@ -46,8 +46,8 @@ const projects = [
       "A Nigerian startup simplifying vehicle maintenance and document management online.",
     link: "/projects/motoka.png",
     color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    // githubLink: "https://github.com/seraprogrammer/CodeKori",
+    liveLink: "https://motoka.vercel.app",
   },
   {
     title: "Teched",
@@ -56,7 +56,7 @@ const projects = [
     link: "/projects/teched.png",
     color: "#ed649e",
     githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    liveLink: "https://teched.vercel.app"
   },
 ];
 
@@ -175,7 +175,7 @@ function Card({
         {/* Modern split card design */}
         <div className="w-full flex flex-col md:flex-row bg-zinc-900 rounded-2xl overflow-hidden shadow-xl">
           {/* Image section - full width on mobile, 55% on desktop */}
-          <div className="w-full md:w-[55%] h-[250px] md:h-[400px] lg:h-[450px] relative overflow-hidden">
+          <div className="w-full md:w-[55%] h-[250px] md:h-[330px] lg:h-[380px] relative overflow-hidden">
             <motion.img
               src={url}
               alt={title}
@@ -224,7 +224,7 @@ function Card({
 
               <div className="flex items-center gap-4">
                 {/* GitHub Link */}
-                <motion.a
+                {/* <motion.a
                   href={githubLink}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -251,7 +251,7 @@ function Card({
                   >
                     Code
                   </span>
-                </motion.a>
+                </motion.a> */}
 
                 {/* Live Link */}
                 <motion.a

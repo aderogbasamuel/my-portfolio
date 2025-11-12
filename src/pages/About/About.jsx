@@ -71,7 +71,7 @@ export default function About() {
         </div> */}
         <div
           id="about"
-          className="lg:my-0 relative  mx-auto max-w-4xl space-y-8 px-6 md:px-32 border-r border-l border-none sm:border-cyan-500 py-24 md:py-48" 
+          className="lg:my-0 relative  mx-auto max-w-4xl space-y-8 px-6 md:px-32 border-none sm:border-solid sm:border-r sm:border-l sm:border-cyan-500 py-24 md:py-48" 
         >
           <h2 className="relative z-10 max-w-xl text-4xl font-medium lg:text-5xl text-white">
             Who Am I?
