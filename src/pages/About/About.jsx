@@ -4,7 +4,7 @@ import OlovaLogo from "@/assets/images/olova.png";
 export default function About() {
   return (
     <>
-      <section id="about" className="py-16 md:py-32  text-white bg-[#04081A]">
+      <section id="about" className="  text-white bg-[#04081A] border-b border-cyan-500">
         {/* <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
           <h2 className="relative z-10 max-w-xl text-4xl font-medium lg:text-5xl text-white">
             Developer, Designer, Creator, Innovator
@@ -71,27 +71,17 @@ export default function About() {
         </div> */}
         <div
           id="about"
-          className="my-5 lg:my-0 relative  mx-auto max-w-5xl space-y-8 px-6 md:space-y-16"
+          className="my-5 lg:my-0 relative  mx-auto max-w-4xl space-y-8 px-6 md:px-32 border-r border-l border-cyan-500 py-16 md:py-48" 
         >
           <h2 className="relative z-10 max-w-xl text-4xl font-medium lg:text-5xl text-white">
-            Developer, Designer, Creator, Innovator
+            Who Am I?
           </h2>
-          <div className="grid gap-6 sm:grid-cols-2 md:gap-12 lg:gap-24">
-            <div className="flex justify-center order-1">
-              <div className="bg-linear-to-b aspect-76/59 relative rounded-2xl p-px from-zinc-300 to-transparent">
-                <img
-                  src={HeroImg}
-                  width={1207}
-                  height={929}
-                  alt="Aderogba Samuel"
-                  className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 cursor-pointer"
-                />
-              </div>
-            </div>{" "}
+          <div className="grid gap-6 sm:grid-cols-1 md:gap-12 lg:gap-24">
+            
             <div className="order-2 lg:order-1">
-              <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
+              {/* <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
                 Who I am?
-              </p>
+              </p> */}
               <p className="text-gray-200 text-sm lg:text-lg">
                 I am Aderogba Samuel, a passionate JavaScript developer
                 dedicated to crafting elegant solutions and seamless user
@@ -106,7 +96,17 @@ export default function About() {
                 bring creativity, precision, and enthusiasm to every line of
                 code I write.
               </p>
-            </div>
+            </div><div className="flex justify-center order-1">
+              <div className="bg-linear-to-b aspect-76/59 relative rounded-2xl px-32 from-zinc-300 to-transparent">
+                <img
+                  src={HeroImg}
+                  width={1207}
+                  height={929}
+                  alt="Aderogba Samuel"
+                  className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 cursor-pointer"
+                />
+              </div>
+            </div>{" "}
           </div>
         </div>
       </section>

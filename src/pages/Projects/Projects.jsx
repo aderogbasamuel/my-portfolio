@@ -153,7 +153,7 @@ function Card({
   return (
     <div
       ref={container}
-      className="h-screen flex items-center justify-center sticky top-0 project-container"
+      className="h-screen flex items-center justify-center sticky top-0 project-container "
     >
       <motion.div
         style={{
