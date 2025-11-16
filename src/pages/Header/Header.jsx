@@ -35,7 +35,7 @@ export default function Header() {
       <div className="fixed top-6 left-1/2 transform -translate-x-1/2 w-auto">
         <div className="p-[1.5px] rounded-full bg-gradient-to-r from-emerald-400 via-cyan-500 to-indigo-500 animate-gradient-x">
           <nav className="bg-gray-900/90 backdrop-blur-md rounded-full px-2 py-2">
-            <div className="flex flex-row items-center gap-0 md:gap-1 lg:gap-2 py-0">
+            <div className="flex flex-row items-center gap-1 md:gap-1 lg:gap-2 py-0">
               {navLinks.map(({ id, icon: Icon, text }) => (
                 <button
                   key={id}
