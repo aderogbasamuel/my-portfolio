@@ -14,27 +14,48 @@ const EducationSection = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   const educationData = [
-    {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
-      mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
-      description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
-    },
-    {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
-      mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
-      description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
-    },
-  ];
+{
+degree: "Secondary School Certificate (SSC)",
+school: "Compass College, Ogun State",
+mascot: "📘",
+year: "2023-2025",
+achievements: [
+"Grade: Distinction",
+"Valedictorian of the graduating class",
+"First ever graduating set of the school",
+"Head Boy"
+],
+skills: [
+"Mathematics",
+"Physics",
+"Chemistry",
+"English",
+"Leadership",
+"Public Speaking"
+],
+description:
+"Completed secondary education as Head Boy and Valedictorian. Known for academic excellence, leadership, and pioneering contributions to the school’s first graduating set."
+},
+{
+degree: "Bachelor of Science (BSc), Computer Engineering (In View)",
+school: "University of Lagos (UNILAG)",
+mascot: "🎓",
+year: "2025 - Present",
+achievements: [
+"Admitted to study Computer Engineering",
+"Founder of Strk, Prepchum and vibekitz"
+],
+skills: [
+"Frontend Development (React, React Native, JavaScript)",
+"UI/UX Design",
+"Firebase Firestore",
+"Problem Solving",
+"Product Design & Development"
+],
+description:
+"Pursuing a degree in Computer Engineering while actively building innovative tech products and startups. Passionate about software engineering, product development, and scalable digital systems."
+}
+];
 
   const containerVariants = {
     hidden: { opacity: 0 },

@@ -56,7 +56,7 @@ const projects = [
     link: "/projects/teched.png",
     color: "#ed649e",
     githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://teched.vercel.app"
+    liveLink: "https://techedapp.vercel.app"
   },
 ];
 
