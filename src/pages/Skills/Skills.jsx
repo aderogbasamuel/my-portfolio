@@ -130,11 +130,11 @@ skills: [
 ];
 
   return (
-    <main className="pt-15 lg:pt-0 text-white min-h-screen bg-[#04081A] relative">
+    <section className="pt-15 lg:pt-0 text-white min-h-screen bg-[#04081A] relative" id="skills">
       {/* Grid Background */}
       <div className="absolute inset-0 bg-grid-pattern opacity-20 pointer-events-none"></div>
 
-      <section className="container mx-auto px-4 py-11 relative z-10">
+      <div className="container mx-auto px-4 py-11 relative z-10">
         <div className="flex justify-center items-center ">
           <IconCloudDemo />
         </div>
@@ -149,7 +149,7 @@ skills: [
             />
           ))}
         </div>
-      </section>
+      </div>
       <style jsx>{`
         @keyframes shimmer {
           0% {
@@ -176,7 +176,7 @@ skills: [
           background-size: 30px 30px;
         }
       `}</style>
-    </main>
+    </section>
   );
 };
 

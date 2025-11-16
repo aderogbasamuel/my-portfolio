@@ -87,11 +87,12 @@ export default function Contact() {
   };
 
   return (
-    <main
+    <section
       className="pt-20 lg:pt-[0rem] bg-[#04081A]
  text-white min-h-screen"
+      id="contact"
     >
-      <section className="hero min-h-screen flex items-center relative px-4 sm:px-6 lg:px-8">
+      <div className="hero min-h-screen flex items-center relative px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Contact Info */}
@@ -231,7 +232,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
   );
 }

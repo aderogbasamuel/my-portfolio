@@ -113,8 +113,8 @@ export default function Projects() {
 
   return (
     <ReactLenis root>
-      <main className="bg-black" ref={container}>
-        <section className="text-white w-full bg-slate-950">
+      <section className="bg-black" ref={container} id="projects">
+        <div className="text-white w-full bg-slate-950">
           {projects.map((project, i) => {
             const targetScale = 1 - (projects.length - i) * 0.05;
             return (
@@ -133,8 +133,8 @@ export default function Projects() {
               />
             );
           })}
-        </section>
-      </main>
+        </div>
+      </section>
     </ReactLenis>
   );
 }

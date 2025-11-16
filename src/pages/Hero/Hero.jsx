@@ -148,8 +148,8 @@ const profile = {
 
   return (
     <>
-      <main className="bg-[#020617] text-white min-h-screen">
-        <section
+      <section className="bg-[#020617] text-white min-h-screen" id="home">
+        <div
           className="hero min-h-screen flex items-center justify-center relative px-4 sm:px-6 lg:px-8 py-10 md:py-16 lg:py-0 hero-section-padding border-b border-cyan-500" 
           style={{ paddingTop: "var(--hero-padding-top, 0)" }}
         >
@@ -400,7 +400,7 @@ const profile = {
               </div>
             </div>
           </div>
-        </section>
+        </div>
 
         {/* Scroll indicator */}
         <div className="absolute bottom-0 left-0 w-full z-50 bg-gray-900/95 backdrop-blur-md md:bg-transparent md:backdrop-blur-none">
@@ -414,7 +414,7 @@ const profile = {
         </div>
         {/* <PortfolioPage />
         <Experience /> */}
-      </main>
+      </section>
     </>
   );
 }
