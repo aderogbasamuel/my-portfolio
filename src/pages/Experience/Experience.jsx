@@ -57,15 +57,15 @@ const ExperienceSection = () => {
     {
       icon: Network,
       title: "Frontend Developer and Graphic Designer",
-      company: "Doubl Crown Technologies ltd",
+      company: "Double Crown Technologies ltd",
       period: "2019 - 2020",
       description:
         "Worked on creating visually appealing and user-friendly web interfaces while also designing graphics for various digital platforms.",
     },
     {
       icon: Layers,
-      title: "Junior Frontend Developer",
-      company: "Sera Programmer",
+      title: "Frontend Developer",
+      company: "Freelancer",
       period: "2021 - 2023",
       description:
         "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
@@ -81,7 +81,7 @@ const ExperienceSection = () => {
   ];
 
   return (
-    <>
+    <section id="experience">
       <div className="min-h-screen bg-gradient-to-b relative overflow-hidden pt-32 pb-20">
         {/* Animated gradient background */}
         <div className="absolute inset-0 bg-[#04081A]" />
@@ -138,7 +138,7 @@ const ExperienceSection = () => {
         <div className="absolute top-20 left-20 w-96 h-96 bg-cyan-500/10 rounded-full filter blur-3xl animate-pulse" />
         <div className="absolute bottom-20 right-20 w-96 h-96 bg-purple-500/10 rounded-full filter blur-3xl animate-pulse delay-1000" />
       </div>
-    </>
+    </section>
   );
 };
 
