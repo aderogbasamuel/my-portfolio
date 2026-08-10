@@ -150,7 +150,7 @@ const profile = {
     <>
       <section className="bg-[#020617] text-white min-h-screen" id="home">
         <div
-          className="hero min-h-screen flex items-center justify-center relative px-4 sm:px-6 lg:px-8 py-10 md:py-16 lg:py-0 hero-section-padding border-b border-cyan-500" 
+          className="hero min-h-screen flex items-center justify-center relative px-4 sm:px-6 lg:px-8 py-10 md:py-16 lg:py-0 hero-section-padding border-b border-cyan-500"
           style={{ paddingTop: "var(--hero-padding-top, 0)" }}
         >
           <div className="absolute inset-0"></div>
@@ -175,9 +175,9 @@ const profile = {
             style={{
               paddingTop:
                 window.innerWidth >= 1360 &&
-                window.innerWidth <= 1370 &&
-                window.innerHeight >= 760 &&
-                window.innerHeight <= 775
+                  window.innerWidth <= 1370 &&
+                  window.innerHeight >= 760 &&
+                  window.innerHeight <= 775
                   ? "12rem"
                   : "",
             }}
@@ -204,9 +204,9 @@ const profile = {
                     I&apos;m
                   </span>
                   <span className="relative">
-  <span className="gradient-text">Samuel.A</span>
-  <span className="blink-cursor absolute text-blue-400">|</span>
-</span>
+                    <span className="gradient-text">Samuel.A</span>
+                    <span className="blink-cursor absolute text-blue-400">|</span>
+                  </span>
 
                 </h1>
                 <div className="absolute -z-10 top-1/2 -translate-y-1/2 left-1/4 w-24 sm:w-32 h-24 sm:h-32 bg-blue-500/20 rounded-full blur-2xl animate-pulse"></div>
@@ -250,8 +250,9 @@ const profile = {
                 </a>
 
                 {/* Contact Button */}
+             
                 <a
-                  href="#"
+                  href="/resume.pdf" download="Samuel_Aderogba_Resume.pdf"
                   className="group relative inline-flex items-center justify-center gap-3 p-0.5 rounded-xl bg-gradient-to-r from-gray-800 to-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]"
                 >
                   <span className="block w-full px-4 sm:px-8 py-2 sm:py-4 rounded-[10px] bg-gray-900 border border-gray-700/50 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-gray-800 group-hover:to-gray-700">
@@ -269,18 +270,18 @@ const profile = {
               {/* Floating badges */}
               <div className="hidden lg:block absolute left-[5.5rem] top-[2.3rem] animate-float-slow">
                 <div className="px-4 py-2 rounded-lg bg-purple-500/10 backdrop-blur-sm border border-purple-500/20 text-purple-400 inline-flex">
-                  <WandSparklesIcon className=" fa-wand-magic-sparkles"/>&nbsp;&nbsp;UI
+                  <WandSparklesIcon className=" fa-wand-magic-sparkles" />&nbsp;&nbsp;UI
                   Magic
                 </div>
               </div>
               <div className="hidden lg:block absolute right-10 top-20 animate-float">
                 <div className="px-4 py-2 rounded-lg bg-blue-500/10 backdrop-blur-sm border border-blue-500/20 text-blue-400 inline-flex">
-                  <Code className="fas fa-code"/>&nbsp;&nbsp;Clean Code
+                  <Code className="fas fa-code" />&nbsp;&nbsp;Clean Code
                 </div>
               </div>
               <div className="hidden lg:block absolute top-[17rem] left-[70%] transform -translate-x-1/2 animate-float">
                 <div className="px-4 py-2 rounded-lg bg-amber-500/10 backdrop-blur-sm border border-amber-500/20 text-amber-400 inline-flex">
-                  <Lightbulb className="fas fa-lightbulb"/>&nbsp;&nbsp;Innovation
+                  <Lightbulb className="fas fa-lightbulb" />&nbsp;&nbsp;Innovation
                 </div>
               </div>
             </div>
@@ -316,7 +317,7 @@ const profile = {
                     <span className="text-gray-400">{`['`}</span>
                     <span className="text-amber-300">React</span>
                     <span className="text-gray-400">{"', '"}</span>
-                    <span className="text-amber-300">NextJS</span> 
+                    <span className="text-amber-300">NextJS</span>
                     <span className="text-gray-400">{"', '"}</span>
                     <span className="text-amber-300">Redux</span>
                     <span className="text-gray-400">{"', '"}</span>
