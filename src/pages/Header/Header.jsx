@@ -31,8 +31,8 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-gray-900/95 backdrop-blur-md md:bg-transparent md:backdrop-blur-none">
-      <div className="fixed top-6 left-1/2 transform -translate-x-1/2 w-auto">
+    <header className="fixed left-0 w-full z-50 bg-gray-900/95 backdrop-blur-md md:bg-transparent md:backdrop-blur-none">
+      <div className="fixed top-14 left-1/2 transform -translate-x-1/2 w-auto">
         <div className="p-[1.5px] rounded-full bg-gradient-to-r from-emerald-400 via-cyan-500 to-indigo-500 animate-gradient-x">
           <nav className="bg-gray-900/90 backdrop-blur-md rounded-full px-2 py-2">
             <div className="flex flex-row items-center gap-1 md:gap-1 lg:gap-2 py-0">

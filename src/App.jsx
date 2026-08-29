@@ -13,7 +13,7 @@ import HomePage from "./pages/Home/Home";
 import NotCompleted from "./pages/NotCompleted";
 
 export default function App() {
-  const [isOnePage, setIsOnePage] = useState(false); // Toggle state
+  const [isOnePage, setIsOnePage] = useState(true); // Toggle state
 
   return (
     <>
